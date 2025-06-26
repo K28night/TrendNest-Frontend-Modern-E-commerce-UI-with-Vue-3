@@ -145,18 +145,7 @@ const activeForm = ref('login')
     color: #222831;
 }
 
-.search-bar button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #393E46;
-    font-size: 1.4rem;
-    padding: 0.3rem;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .search-bar button:hover {
     background-color: #00acb5c7;
@@ -208,8 +197,8 @@ const activeForm = ref('login')
     color: #EEEEEE;
     font-size: 1.5rem;
     border: none;
-    outline:none;
-        position: relative;
+    outline: none;
+    position: relative;
     top: -25px;
     right: -1.5rem;
     cursor: pointer;
@@ -288,58 +277,23 @@ button[type="submit"] {
     background-color: #00ADB5;
     color: #EEEEEE;
     border: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.7rem 1.5rem;
     margin-right: 0.3rem;
     border-radius: 28px;
     cursor: pointer;
 }
-.btn-2 {
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 45px;
-  max-width: 160px;
-  width: 100%;
-  text-transform: uppercase;
-  background: transparent;
-  border: none;
-  position: relative;
-  margin: 1rem auto;
-  display: block;
-  text-align: center;
-  letter-spacing: 0;
-  transition: all 0.3s ease;
-}
-
-.btn-2:hover,
-.btn-2:active {
-  letter-spacing: 5px;
-}
-
-.btn-2::before,
-.btn-2::after {
-  content: "";
-  position: relative;
-  display: block;
-  width: 0;
-  border: 1px solid transparent;
-  transition: all 280ms ease-in-out;
-  margin: 0 auto;
-}
-
-.btn-2:hover::before,
-.btn-2:hover::after {
-  border-color: #fff;
-  width: 70%;
-}
-
-.btn-2::before {
-  top: 0;
-}
-
-.btn-2::after {
-  bottom: 0;
+.search-bar button {
+  background-color: #00ADB5;
+    color: #EEEEEE;
+    border: none;
+    cursor: pointer;
+outline:none;
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 </style>

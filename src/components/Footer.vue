@@ -64,10 +64,10 @@
     background-color: #222831;
     color: #EEEEEE;
     padding: 3rem 1rem 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   letter-spacing:1px
 }
@@ -130,6 +130,7 @@
     width: 40px;
     height: auto;
     filter: brightness(0) invert(1);
+     margin-right: 1rem;
 }
 
 .sub-text {

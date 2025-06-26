@@ -1,5 +1,5 @@
 <script setup>
-
+import ViewItems from './components/ViewItems.vue';
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 </script>
@@ -7,5 +7,6 @@ import Footer from './components/Footer.vue'
 <template>
 
   <Header />
+  <ViewItems></ViewItems>
 <Footer></Footer>
 </template>
